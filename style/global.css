@@ -13,21 +13,21 @@
 --text-color-secundary: #6C6C6C;
 
 --font-family: "Poppins", serif;
---text-lg: 32px/125% var(--font-family)
---text: 16px/1.5 var(--font-family)
---text-md: 14px/150% var(--font-family)
---text-sm: 12px/150% var(--font-family)
+--text-lg: bold 32px/125% var(--font-family);
+--text-:16px/1.5 var(--font-family);
+--text-md:14px/170% var(--font-family);
+--text-sm:12px/170% var(--font-family);
 
 }
 
 body {
-font: var(--text)
-color: var(--text-color-secundary)
+font: var(--text);
+color: var(--text-color-secundary);
 background-color: var(--brackground-color)
 
-
 }
- a {
+ 
+a {
  text-decoration: none;
  color: inherit;
 
@@ -45,7 +45,7 @@ a:hover {
 
 }
 
-.bg-suface-color {
-
+.bg-surface-color {
 background-color: var(--surface-color);
+
 }
